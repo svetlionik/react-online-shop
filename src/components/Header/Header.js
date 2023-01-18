@@ -1,6 +1,6 @@
 // TODO - add ForkPoint logo and link to home page
 import logo from "../../images/fp-logo.png"
-import './Header.css'
+import './Header.scss'
 
 const freeShippingText = "FREE SHIPPING ON ALL ORDERS ABOVE 99$";
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
       <div className="free-shipping-div">{freeShippingText}</div>
       <div className="login-nav-div">Language, login, items bucket</div>
       <nav>
-        <div>
+        <div className="logo-menu">
           <div className="logo"><img className="logo-img" src={logo} alt="" /></div>
           <div className="menu-container">
             <ul>

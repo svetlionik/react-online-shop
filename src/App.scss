@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+a.active,
+a:hover {
+  background: whitesmoke;
+  transition: 0.5s;
+}

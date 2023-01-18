@@ -1,0 +1,56 @@
+.logo-img {
+  padding-top: 20px;
+  width: 40px;
+}
+.free-shipping-div {
+  background-color: red;
+  text-align: center;
+  color: black;
+  line-height: 20px;
+  font-size: 13px;
+}
+.login-nav-div {
+  background-color: black;
+  text-align: center;
+  line-height: 20px;
+  font-size: 13px;
+}
+.logo {
+  margin-right: 2em;
+}
+.search-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+
+nav {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: space-between;
+  min-width: 30em;
+  max-width: 65%;
+  margin: 0 auto;
+
+  .logo-menu {
+    display: flex;
+  }
+
+  ul {
+    display: flex;
+
+    li {
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+
+      a {
+        color: black;
+        font-size: 9px;
+        padding: 3px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

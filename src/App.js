@@ -4,7 +4,7 @@ import Sidebar from '../src/components/Content/Sidebar';
 import Content from '../src/components/Content/Content';
 import Footer from '../src/components/Footer/Footer';
 // TODO - update styling of each component
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
